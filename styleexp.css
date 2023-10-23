@@ -3,11 +3,11 @@
 
 .section-exp{
     height: 1500px;
-    background: #121420;
+    background: #5F6063;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 .section-exp>section{
@@ -97,4 +97,43 @@
     border-radius: 20px;
     height: 250px;
     box-shadow: 0px 5px 30px 10px #1CBEF7;
+}
+
+.space-about-exp{
+    height: 400px;
+    background: rgb(49,49,51);
+    background: linear-gradient(180deg, rgba(49,49,51,1) 25%, rgba(95,96,99,1) 100%);
+}
+
+.title-exp{
+    height: 200px;
+    background: #5F6063;
+    display: flex;
+    justify-content: center;
+}
+.title-exp>h2{
+    font-family: 'Bungee', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+.van-com{
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.van-com:hover{
+    background: rgb(70,162,159);
+    background: linear-gradient(0deg, rgba(70,162,159,1) 20%, rgba(33,117,113,1) 67%);
+    transform: rotateX(20deg);
+    box-shadow: 0px 0px 20px 5px rgb(70,162,159);
+}
+
+.cert-com{
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.cert-com:hover{
+    background: #00A93A;
+    transform: rotateX(20deg);
+    box-shadow: 0px 0px 20px 5px #00A93A;
 }

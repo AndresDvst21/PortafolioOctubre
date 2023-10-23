@@ -46,6 +46,9 @@ window.addEventListener('scroll', () => {
         'section-tech2 .inside-ub',
         'section-tech2 .inside-wf',
         'section-tech2 .inside-et',
+        'section-tech',
+        'section-tech1',
+        'section-tech2',
         'section-hb .div-ps',
         'section-hb .div-ai',
         'section-hb .div-pr',
@@ -56,6 +59,7 @@ window.addEventListener('scroll', () => {
         'section-exp .free-front',
         'section-exp .free-st',
         'h1',
+        'h2',
         'icons-conta .div-lk',
         'icons-conta .div-wt',
         'icons-conta .div-tg',
@@ -67,6 +71,84 @@ window.addEventListener('scroll', () => {
     ];
     applyHoverEffectOnScroll(classesToHover, 30);
 });
+
+
+function activarClasesEnScroll(elementosSecciones) {
+  elementosSecciones.forEach(([elementId, sectionId, activacionSuperior]) => {
+    const element = document.getElementById(elementId);
+    const section = document.getElementById(sectionId);
+
+    // Define la distancia en píxeles por debajo del elemento para desactivar la clase (20 píxeles)
+    const desactivacionInferior = 600;
+
+    // Calcula la posición vertical del elemento en relación con la parte superior del documento
+    const elementoTop = section.offsetTop - activacionSuperior;
+
+    // Agrega un manejador de eventos para detectar el evento de scroll en la ventana
+    window.addEventListener("scroll", () => {
+      // Obtén la posición actual de desplazamiento vertical
+      const scrollY = window.scrollY;
+
+      // Comprueba si el usuario está dentro de la zona de activación
+      if (scrollY >= elementoTop && scrollY <= elementoTop + section.offsetHeight + desactivacionInferior) {
+        // Agrega la clase al elemento en la sección
+        element.classList.add("hover-activado");
+      } else {
+        // Si la sección no está en la posición de activación, elimina la clase
+        element.classList.remove("hover-activado");
+      }
+    });
+  });
+}
+
+// Definir los elementos, secciones y distancias de activación en un array
+const elementosSecciones = [
+  ["id-tech", "tech", 800],
+  ["id-sm", "section-divs", 800],
+  ["id-hb", "section-hb", 800],
+  ["id-exp", "section-exp", 800],
+  ["id-ct", "section-conta", 400],
+  // Agrega más elementos y secciones aquí si es necesario
+];
+
+// Llama a la función para activar las clases en scroll
+activarClasesEnScroll(elementosSecciones);
+
+
+document.querySelectorAll('header a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute('data-target');
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      // Obtén la posición vertical del elemento de destino
+      const targetOffset = targetElement.getBoundingClientRect().top + window.scrollY;
+
+      // Aplica el desplazamiento suave restando 50 píxeles
+      window.scrollTo({
+        top: targetOffset - 50,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

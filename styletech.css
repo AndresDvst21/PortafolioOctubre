@@ -1,6 +1,6 @@
 .tech{
     height: 1900px;
-    background: #121420;
+    background: #5F6063;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,4 +117,22 @@
 .section-tech2>div>i{
     font-size: 50px;
     margin-right: 20px;
+}
+
+.title-tech{
+    height: 200px;
+    background: #5F6063;
+    display: flex;
+    justify-content: center;
+}
+.title-tech>h2{
+    font-family: 'Bungee', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+.space-about-tech{
+    height: 400px;
+    background: rgb(49,49,51);
+background: linear-gradient(180deg, rgba(49,49,51,1) 25%, rgba(95,96,99,1) 100%);
 }
