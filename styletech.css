@@ -1,0 +1,120 @@
+.tech{
+    height: 1900px;
+    background: #121420;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-tech{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    border: 5px solid white;
+    height: 450px;
+    margin-bottom: 100px;
+}
+
+.section-tech>div>h2{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+.section-tech>div>h3{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.section-tech>div{
+    display: flex;
+    align-items: center;
+}
+
+.section-tech>div>i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.outside-div1{
+    height: 20px;
+    width: 1200px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.ti-brand-bootstrap{
+    color: #760FF0;
+}
+
+.section-tech1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    border: 5px solid white;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.section-tech1>div>h2{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+.section-tech1>div>h3{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.section-tech1>div{
+    display: flex;
+    align-items: center;
+}
+
+.section-tech1>div>i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.section-tech2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    border: 5px solid white;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.section-tech2>div>h2{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+.section-tech2>div>h3{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.section-tech2>div{
+    display: flex;
+    align-items: center;
+}
+
+.section-tech2>div>i{
+    font-size: 50px;
+    margin-right: 20px;
+}

@@ -1,0 +1,1711 @@
+/* Sobre Mi */
+
+.section-about-p .div-sobre-mi.hovered{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #BC4B51;
+    box-shadow: 2px 2px 10px 2px #BC4B51;
+    text-decoration: underline white;
+}
+
+.inside-front{
+    height: 100%;
+    width: 60%;
+    background: #E6D24C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.div-front{
+    box-shadow: 0px 0px 20px 7px #E6D24C;
+    transform: translateY(0px);
+    transition: transform 1s ease;
+}
+
+.div-back{
+    box-shadow: 0px 0px 20px 7px #6D287E;
+    transform: translateY(0px);
+    transition: transform 1s ease;
+}
+
+.div-sis{
+    box-shadow: 0px 0px 20px 7px #1CBEF7;
+    transform: translateY(0px);
+    transition: transform 1s ease;
+}
+
+.div-di{
+    box-shadow: 0px 0px 20px 7px #F79500;
+    transform: translateY(0px);
+    transition: transform 1s ease;
+}
+
+.section-divs .div-front.hovered, .section-divs .div-sis.hovered{
+    transform: translateY(-50px);
+}
+
+.section-divs .div-back.hovered, .section-divs .div-di.hovered{
+    transform: translateY(50px);
+}
+
+
+@keyframes bar-front{
+    0%{
+        background: #E6D24C;
+        width: 0%;
+    }
+        
+    5%{
+        background: #E6D24C;
+        width: 5%;
+    }
+            
+    10%{
+        background: #E6D24C;
+        width: 10%;
+    }
+        
+    15%{
+        background: #E6D24C;
+        width: 15%;
+    }
+        
+    20%{
+        background: #E6D24C;
+        width: 20%;
+    }
+        
+    25%{
+        background: #E6D24C;
+        width: 25%;
+    }
+        
+    30%{
+        background: #E6D24C;
+        width: 30%;
+    }
+        
+    35%{
+        background: #E6D24C;
+        width: 35%;
+    }
+        
+    40%{
+        background: #E6D24C;
+        width: 40%;
+    }
+        
+    45%{
+        background: #E6D24C;
+        width: 45%;
+    }
+        
+    50%{
+        background: #E6D24C;
+        width: 50%;
+    }
+
+    55%{
+        background: #E6D24C;
+        width: 55%;
+    }
+        
+    60%{
+        background: #E6D24C;
+        width: 60%;
+    }
+}
+
+.inside-back{
+    height: 100%;
+    width: 50%;
+    background: #6D287E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes bar-back{
+    0%{
+        background: #6D287E;
+        width: 0%;
+    }
+        
+    5%{
+        background: #6D287E;
+        width: 5%;
+    }
+            
+    10%{
+        background: #6D287E;
+        width: 10%;
+    }
+        
+    15%{
+        background: #6D287E;
+        width: 15%;
+    }
+        
+    20%{
+        background: #6D287E;
+        width: 20%;
+    }
+        
+    25%{
+        background: #6D287E;
+        width: 25%;
+    }
+        
+    30%{
+        background: #6D287E;
+        width: 30%;
+    }
+        
+    35%{
+        background: #6D287E;
+        width: 35%;
+    }
+        
+    40%{
+        background: #6D287E;
+        width: 40%;
+    }
+        
+    45%{
+        background: #6D287E;
+        width: 45%;
+    }
+        
+    50%{
+        background: #6D287E;
+        width: 50%;
+    }
+}
+
+.inside-sis{
+    height: 100%;
+    width: 90%;
+    background: #1CBEF7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes bar-sis{
+    0%{
+        background: #1CBEF7;
+        width: 0%;
+    }
+        
+    5%{
+        background: #1CBEF7;
+        width: 5%;
+    }
+            
+    10%{
+        background: #1CBEF7;
+        width: 10%;
+    }
+        
+    15%{
+        background: #1CBEF7;
+        width: 15%;
+    }
+        
+    20%{
+        background: #1CBEF7;
+        width: 20%;
+    }
+        
+    25%{
+        background: #1CBEF7;
+        width: 25%;
+    }
+        
+    30%{
+        background: #1CBEF7;
+        width: 30%;
+    }
+        
+    35%{
+        background: #1CBEF7;
+        width: 35%;
+    }
+        
+    40%{
+        background: #1CBEF7;
+        width: 40%;
+    }
+        
+    45%{
+        background: #1CBEF7;
+        width: 45%;
+    }
+        
+    50%{
+        background: #1CBEF7;
+        width: 50%;
+    }
+
+    55%{
+        background: #1CBEF7;
+        width: 55%;
+    }
+
+    60%{
+        background: #1CBEF7;
+        width: 60%;
+    }
+
+    65%{
+        background: #1CBEF7;
+        width: 65%;
+    }
+
+    70%{
+        background: #1CBEF7;
+        width: 70%;
+    }
+
+    75%{
+        background: #1CBEF7;
+        width: 75%;
+    }
+
+    80%{
+        background: #1CBEF7;
+        width: 80%;
+    }
+
+    85%{
+        background: #1CBEF7;
+        width: 85%;
+    }
+
+    90%{
+        background: #1CBEF7;
+        width: 90%;
+    }
+}
+
+.inside-di{
+    height: 100%;
+    width: 70%;
+    background: #F79500;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes bar-di{
+    0%{
+        background: #F79500;
+        width: 0%;
+    }
+        
+    5%{
+        background: #F79500;
+        width: 5%;
+    }
+            
+    10%{
+        background: #F79500;
+        width: 10%;
+    }
+        
+    15%{
+        background: #F79500;
+        width: 15%;
+    }
+        
+    20%{
+        background: #F79500;
+        width: 20%;
+    }
+        
+    25%{
+        background: #F79500;
+        width: 25%;
+    }
+        
+    30%{
+        background: #F79500;
+        width: 30%;
+    }
+        
+    35%{
+        background: #F79500;
+        width: 35%;
+    }
+        
+    40%{
+        background: #F79500;
+        width: 40%;
+    }
+        
+    45%{
+        background: #F79500;
+        width: 45%;
+    }
+        
+    50%{
+        background: #F79500;
+        width: 50%;
+    }
+
+    55%{
+        background: #F79500;
+        width: 55%;
+    }
+
+    60%{
+        background: #F79500;
+        width: 60%;
+    }
+
+    65%{
+        background: #F79500;
+        width: 65%;
+    }
+
+    70%{
+        background: #F79500;
+        width: 70%;
+    }
+}
+
+
+.section-divs .inside-front.hovered{
+    animation-name: bar-front;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-divs .inside-back.hovered{
+    animation-name: bar-back;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-divs .inside-sis.hovered{
+    animation-name: bar-sis;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-divs .inside-di.hovered{
+    animation-name: bar-di;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+
+/* Tech */
+
+.section-tech{
+    box-shadow: -10px -10px 20px #254BDD,
+                10px  10px 20px #760FF0;
+    transform: translateX(-180px);
+    transition: transform 1s ease;
+}
+
+
+.section-tech1{
+    box-shadow:  -10px -10px 20px #6D287E,
+    10px  10px 20px #3395D0;
+    transform: translateX(-180px);
+    transition: transform 1s ease;
+}
+
+.section-tech2{
+    box-shadow:  -10px -10px 20px #1CBEF7,
+    10px  10px 20px #70D5F1;
+    transform: translateX(-180px);
+    transition: transform 1s ease;
+}
+
+
+.outside-div1>p{
+    position: absolute;
+    margin-left: 550px;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.inside-html{
+    height: 100%;
+    width: 80%;
+    background: #DE4B25;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-html{
+    0%{
+        background: #DE4B25;
+        width: 0%;
+    }
+        
+    5%{
+        background: #DE4B25;
+        width: 5%;
+    }
+            
+    10%{
+        background: #DE4B25;
+        width: 10%;
+    }
+        
+    15%{
+        background: #DE4B25;
+        width: 15%;
+    }
+        
+    20%{
+        background: #DE4B25;
+        width: 20%;
+    }
+        
+    25%{
+        background: #DE4B25;
+        width: 25%;
+    }
+        
+    30%{
+        background: #DE4B25;
+        width: 30%;
+    }
+        
+    35%{
+        background: #DE4B25;
+        width: 35%;
+    }
+        
+    40%{
+        background: #DE4B25;
+        width: 40%;
+    }
+        
+    45%{
+        background: #DE4B25;
+        width: 45%;
+    }
+        
+    50%{
+        background: #DE4B25;
+        width: 50%;
+    }
+
+    55%{
+        background: #DE4B25;
+        width: 55%;
+    }
+
+    60%{
+        background: #DE4B25;
+        width: 60%;
+    }
+
+    65%{
+        background: #DE4B25;
+        width: 65%;
+    }
+
+    70%{
+        background: #DE4B25;
+        width: 70%;
+    }
+
+    75%{
+        background: #DE4B25;
+        width: 75%;
+    }
+
+    80%{
+        background: #DE4B25;
+        width: 80%;
+    }
+}
+
+.inside-css{
+    height: 100%;
+    width: 70%;
+    background: #254BDD;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-css{
+    0%{
+        background: #254BDD;
+        width: 0%;
+    }
+        
+    5%{
+        background: #254BDD;
+        width: 5%;
+    }
+            
+    10%{
+        background: #254BDD;
+        width: 10%;
+    }
+        
+    15%{
+        background: #254BDD;
+        width: 15%;
+    }
+        
+    20%{
+        background: #254BDD;
+        width: 20%;
+    }
+        
+    25%{
+        background: #254BDD;
+        width: 25%;
+    }
+        
+    30%{
+        background: #254BDD;
+        width: 30%;
+    }
+        
+    35%{
+        background: #254BDD;
+        width: 35%;
+    }
+        
+    40%{
+        background: #254BDD;
+        width: 40%;
+    }
+        
+    45%{
+        background: #254BDD;
+        width: 45%;
+    }
+        
+    50%{
+        background: #254BDD;
+        width: 50%;
+    }
+
+    55%{
+        background: #254BDD;
+        width: 55%;
+    }
+
+    60%{
+        background: #254BDD;
+        width: 60%;
+    }
+
+    65%{
+        background: #254BDD;
+        width: 65%;
+    }
+
+    70%{
+        background: #254BDD;
+        width: 70%;
+    }
+}
+
+.inside-java{
+    height: 100%;
+    width: 50%;
+    background: #E8D44D;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-java{
+    0%{
+        background: #E8D44D;
+        width: 0%;
+    }
+        
+    5%{
+        background: #E8D44D;
+        width: 5%;
+    }
+            
+    10%{
+        background: #E8D44D;
+        width: 10%;
+    }
+        
+    15%{
+        background: #E8D44D;
+        width: 15%;
+    }
+        
+    20%{
+        background: #E8D44D;
+        width: 20%;
+    }
+        
+    25%{
+        background: #E8D44D;
+        width: 25%;
+    }
+        
+    30%{
+        background: #E8D44D;
+        width: 30%;
+    }
+        
+    35%{
+        background: #E8D44D;
+        width: 35%;
+    }
+        
+    40%{
+        background: #E8D44D;
+        width: 40%;
+    }
+        
+    45%{
+        background: #E8D44D;
+        width: 45%;
+    }
+        
+    50%{
+        background: #E8D44D;
+        width: 50%;
+    }
+}
+
+.inside-boo{
+    height: 100%;
+    width: 50%;
+    background: #760FF0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-boo{
+    0%{
+        background: #760FF0;
+        width: 0%;
+    }
+        
+    5%{
+        background: #760FF0;
+        width: 5%;
+    }
+            
+    10%{
+        background: #760FF0;
+        width: 10%;
+    }
+        
+    15%{
+        background: #760FF0;
+        width: 15%;
+    }
+        
+    20%{
+        background: #760FF0;
+        width: 20%;
+    }
+        
+    25%{
+        background: #760FF0;
+        width: 25%;
+    }
+        
+    30%{
+        background: #760FF0;
+        width: 30%;
+    }
+        
+    35%{
+        background: #760FF0;
+        width: 35%;
+    }
+        
+    40%{
+        background: #760FF0;
+        width: 40%;
+    }
+        
+    45%{
+        background: #760FF0;
+        width: 45%;
+    }
+        
+    50%{
+        background: #760FF0;
+        width: 50%;
+    }
+}
+
+.section-tech .inside-html.hovered{
+    animation-name: bar-html;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-tech .inside-css.hovered{
+    animation-name: bar-css;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-tech .inside-java.hovered{
+    animation-name: bar-java;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-tech .inside-boo.hovered{
+    animation-name: bar-boo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-tech.hovered, .section-tech1.hovered, .section-tech2.hovered{
+    transform: translateX(0);
+}
+
+.inside-cs{
+    height: 100%;
+    width: 40%;
+    background: #6D287E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-cs{
+    0%{
+        background: #6D287E;
+        width: 0%;
+    }
+        
+    5%{
+        background: #6D287E;
+        width: 5%;
+    }
+            
+    10%{
+        background: #6D287E;
+        width: 10%;
+    }
+        
+    15%{
+        background: #6D287E;
+        width: 15%;
+    }
+        
+    20%{
+        background: #6D287E;
+        width: 20%;
+    }
+        
+    25%{
+        background: #6D287E;
+        width: 25%;
+    }
+        
+    30%{
+        background: #6D287E;
+        width: 30%;
+    }
+        
+    35%{
+        background: #6D287E;
+        width: 35%;
+    }
+        
+    40%{
+        background: #6D287E;
+        width: 40%;
+    }
+}
+
+.section-tech1 .inside-cs.hovered{
+    animation-name: bar-cs;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-sql{
+    height: 100%;
+    width: 60%;
+    background: #3395D0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-sql{
+    0%{
+        background: #3395D0;
+        width: 0%;
+    }
+        
+    5%{
+        background: #3395D0;
+        width: 5%;
+    }
+            
+    10%{
+        background: #3395D0;
+        width: 10%;
+    }
+        
+    15%{
+        background: #3395D0;
+        width: 15%;
+    }
+        
+    20%{
+        background: #3395D0;
+        width: 20%;
+    }
+        
+    25%{
+        background: #3395D0;
+        width: 25%;
+    }
+        
+    30%{
+        background: #3395D0;
+        width: 30%;
+    }
+        
+    35%{
+        background: #3395D0;
+        width: 35%;
+    }
+        
+    40%{
+        background: #3395D0;
+        width: 40%;
+    }
+
+    45%{
+        background: #3395D0;
+        width: 45%;
+    }
+
+    50%{
+        background: #3395D0;
+        width: 50%;
+    }
+
+    55%{
+        background: #3395D0;
+        width: 55%;
+    }
+
+    60%{
+        background: #3395D0;
+        width: 60%;
+    }
+}
+
+.section-tech1 .inside-sql.hovered{
+    animation-name: bar-sql;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-mysql{
+    height: 100%;
+    width: 60%;
+    background: #00718B;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-mysql{
+    0%{
+        background: #00718B;
+        width: 0%;
+    }
+        
+    5%{
+        background: #00718B;
+        width: 5%;
+    }
+            
+    10%{
+        background: #00718B;
+        width: 10%;
+    }
+        
+    15%{
+        background: #00718B;
+        width: 15%;
+    }
+        
+    20%{
+        background: #00718B;
+        width: 20%;
+    }
+        
+    25%{
+        background: #00718B;
+        width: 25%;
+    }
+        
+    30%{
+        background: #00718B;
+        width: 30%;
+    }
+        
+    35%{
+        background: #00718B;
+        width: 35%;
+    }
+        
+    40%{
+        background: #00718B;
+        width: 40%;
+    }
+
+    45%{
+        background: #00718B;
+        width: 45%;
+    }
+
+    50%{
+        background: #00718B;
+        width: 50%;
+    }
+
+    55%{
+        background: #00718B;
+        width: 55%;
+    }
+
+    60%{
+        background: #00718B;
+        width: 60%;
+    }
+}
+
+.section-tech1 .inside-mysql.hovered{
+    animation-name: bar-mysql;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-server{
+    height: 100%;
+    width: 70%;
+    background: #F61310;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-server{
+    0%{
+        background: #F61310;
+        width: 0%;
+    }
+        
+    5%{
+        background: #F61310;
+        width: 5%;
+    }
+            
+    10%{
+        background: #F61310;
+        width: 10%;
+    }
+        
+    15%{
+        background: #F61310;
+        width: 15%;
+    }
+        
+    20%{
+        background: #F61310;
+        width: 20%;
+    }
+        
+    25%{
+        background: #F61310;
+        width: 25%;
+    }
+        
+    30%{
+        background: #F61310;
+        width: 30%;
+    }
+        
+    35%{
+        background: #F61310;
+        width: 35%;
+    }
+        
+    40%{
+        background: #F61310;
+        width: 40%;
+    }
+
+    45%{
+        background: #F61310;
+        width: 45%;
+    }
+
+    50%{
+        background: #F61310;
+        width: 50%;
+    }
+
+    55%{
+        background: #F61310;
+        width: 55%;
+    }
+
+    60%{
+        background: #F61310;
+        width: 60%;
+    }
+
+    65%{
+        background: #F61310;
+        width: 65%;
+    }
+
+    70%{
+        background: #F61310;
+        width: 70%;
+    }
+}
+
+.section-tech1 .inside-server.hovered{
+    animation-name: bar-server;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-vscode{
+    height: 100%;
+    width: 60%;
+    background: #6B3494;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-vs{
+    0%{
+        background: #6B3494;
+        width: 0%;
+    }
+        
+    5%{
+        background: #6B3494;
+        width: 5%;
+    }
+            
+    10%{
+        background: #6B3494;
+        width: 10%;
+    }
+        
+    15%{
+        background: #6B3494;
+        width: 15%;
+    }
+        
+    20%{
+        background: #6B3494;
+        width: 20%;
+    }
+        
+    25%{
+        background: #6B3494;
+        width: 25%;
+    }
+        
+    30%{
+        background: #6B3494;
+        width: 30%;
+    }
+        
+    35%{
+        background: #6B3494;
+        width: 35%;
+    }
+        
+    40%{
+        background: #6B3494;
+        width: 40%;
+    }
+
+    45%{
+        background: #6B3494;
+        width: 45%;
+    }
+
+    50%{
+        background: #6B3494;
+        width: 50%;
+    }
+
+    55%{
+        background: #6B3494;
+        width: 55%;
+    }
+
+    60%{
+        background: #6B3494;
+        width: 60%;
+    }
+}
+
+.section-tech1 .inside-vscode.hovered{
+    animation-name: bar-vs;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-wd{
+    height: 100%;
+    width: 90%;
+    background: #1CBEF7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.section-tech2 .inside-wd.hovered{
+    animation-name: bar-sis;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-db{
+    height: 100%;
+    width: 60%;
+    background: #A50443;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-db{
+    0%{
+        background: #A50443;
+        width: 0%;
+    }
+        
+    5%{
+        background: #A50443;
+        width: 5%;
+    }
+            
+    10%{
+        background: #A50443;
+        width: 10%;
+    }
+        
+    15%{
+        background: #A50443;
+        width: 15%;
+    }
+        
+    20%{
+        background: #A50443;
+        width: 20%;
+    }
+        
+    25%{
+        background: #A50443;
+        width: 25%;
+    }
+        
+    30%{
+        background: #A50443;
+        width: 30%;
+    }
+        
+    35%{
+        background: #A50443;
+        width: 35%;
+    }
+        
+    40%{
+        background: #A50443;
+        width: 40%;
+    }
+
+    45%{
+        background: #A50443;
+        width: 45%;
+    }
+
+    50%{
+        background: #A50443;
+        width: 50%;
+    }
+
+    55%{
+        background: #A50443;
+        width: 55%;
+    }
+
+    60%{
+        background: #A50443;
+        width: 60%;
+    }
+}
+
+.section-tech2 .inside-db.hovered{
+    animation-name: bar-db;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-ub{
+    height: 100%;
+    width: 70%;
+    background: #ea5516;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-ub{
+    0%{
+        background: #ea5516;
+        width: 0%;
+    }
+        
+    5%{
+        background: #ea5516;
+        width: 5%;
+    }
+            
+    10%{
+        background: #ea5516;
+        width: 10%;
+    }
+        
+    15%{
+        background: #ea5516;
+        width: 15%;
+    }
+        
+    20%{
+        background: #ea5516;
+        width: 20%;
+    }
+        
+    25%{
+        background: #ea5516;
+        width: 25%;
+    }
+        
+    30%{
+        background: #ea5516;
+        width: 30%;
+    }
+        
+    35%{
+        background: #ea5516;
+        width: 35%;
+    }
+        
+    40%{
+        background: #ea5516;
+        width: 40%;
+    }
+
+    45%{
+        background: #ea5516;
+        width: 45%;
+    }
+
+    50%{
+        background: #ea5516;
+        width: 50%;
+    }
+
+    55%{
+        background: #ea5516;
+        width: 55%;
+    }
+
+    60%{
+        background: #ea5516;
+        width: 60%;
+    }
+
+    65%{
+        background: #ea5516;
+        width: 65%;
+    }
+
+    70%{
+        background: #ea5516;
+        width: 70%;
+    }
+}
+
+.section-tech2 .inside-ub.hovered{
+    animation-name: bar-ub;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-wf{
+    height: 100%;
+    width: 70%;
+    background: #70D5F1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-wf{
+    0%{
+        background: #70D5F1;
+        width: 0%;
+    }
+        
+    5%{
+        background: #70D5F1;
+        width: 5%;
+    }
+            
+    10%{
+        background: #70D5F1;
+        width: 10%;
+    }
+        
+    15%{
+        background: #70D5F1;
+        width: 15%;
+    }
+        
+    20%{
+        background: #70D5F1;
+        width: 20%;
+    }
+        
+    25%{
+        background: #70D5F1;
+        width: 25%;
+    }
+        
+    30%{
+        background: #70D5F1;
+        width: 30%;
+    }
+        
+    35%{
+        background: #70D5F1;
+        width: 35%;
+    }
+        
+    40%{
+        background: #70D5F1;
+        width: 40%;
+    }
+
+    45%{
+        background: #70D5F1;
+        width: 45%;
+    }
+
+    50%{
+        background: #70D5F1;
+        width: 50%;
+    }
+
+    55%{
+        background: #70D5F1;
+        width: 55%;
+    }
+
+    60%{
+        background: #70D5F1;
+        width: 60%;
+    }
+
+    65%{
+        background: #70D5F1;
+        width: 65%;
+    }
+
+    70%{
+        background: #70D5F1;
+        width: 70%;
+    }
+}
+
+.section-tech2 .inside-wf.hovered{
+    animation-name: bar-wf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.inside-et{
+    height: 100%;
+    width: 80%;
+    background: #1785B5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@keyframes bar-et{
+    0%{
+        background: #1785B5;
+        width: 0%;
+    }
+        
+    5%{
+        background: #1785B5;
+        width: 5%;
+    }
+            
+    10%{
+        background: #1785B5;
+        width: 10%;
+    }
+        
+    15%{
+        background: #1785B5;
+        width: 15%;
+    }
+        
+    20%{
+        background: #1785B5;
+        width: 20%;
+    }
+        
+    25%{
+        background: #1785B5;
+        width: 25%;
+    }
+        
+    30%{
+        background: #1785B5;
+        width: 30%;
+    }
+        
+    35%{
+        background: #1785B5;
+        width: 35%;
+    }
+        
+    40%{
+        background: #1785B5;
+        width: 40%;
+    }
+
+    45%{
+        background: #1785B5;
+        width: 45%;
+    }
+
+    50%{
+        background: #1785B5;
+        width: 50%;
+    }
+
+    55%{
+        background: #1785B5;
+        width: 55%;
+    }
+
+    60%{
+        background: #1785B5;
+        width: 60%;
+    }
+
+    65%{
+        background: #1785B5;
+        width: 65%;
+    }
+
+    70%{
+        background: #1785B5;
+        width: 70%;
+    }
+
+    75%{
+        background: #1785B5;
+        width: 75%;
+    }
+
+    80%{
+        background: #1785B5;
+        width: 80%;
+    }
+}
+
+.section-tech2 .inside-et.hovered{
+    animation-name: bar-et;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+/* Habiliades */
+
+.div-ps, .div-ai, .div-pr{
+    transform: translateY(150px);
+    transition: transform 1.5s ease;
+}
+
+.div-ae, .div-cd, .div-fm{
+    transform: translateY(-150px);
+    transition: transform 1.5s ease;
+}
+
+.section-hb .div-ps.hovered,
+.section-hb .div-ai.hovered,
+.section-hb .div-pr.hovered,
+.section-hb .div-ae.hovered,
+.section-hb .div-cd.hovered,
+.section-hb .div-fm.hovered{
+    transform: translateY(0);
+}
+
+
+/* Experiencia */
+
+.vang{
+    transform: rotateX(90deg);
+    transition: transform 1.5s ease;
+}
+
+.section-exp .vang.hovered{
+    transform: rotateX(0deg);
+}
+
+.free-front{
+    transform: rotateX(90deg);
+    transition: transform 1.5s ease;
+}
+
+.section-exp .free-front.hovered{
+    transform: rotateX(0deg);
+}
+
+.free-st{
+    transform: rotateX(90deg);
+    transition: transform 1.5s ease;
+}
+
+.section-exp .free-st.hovered{
+    transform: rotateX(0deg);
+}
+
+/* Contacto */
+
+.h1.hovered{
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.h1-2{
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.section-about-p .h1-2.hovered{
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes h1{
+    0%{transform:scale(1) rotateX(-360deg)}
+    50%{transform:scale(2) rotateX(0deg)}
+    100%{transform:scale(1) rotateX(0)}
+}
+
+@keyframes rd{
+    0%{transform:rotate(0)}
+    100%{transform:rotate(360deg)}
+}
+
+.icons-conta .div-lk.hovered,
+.icons-conta .div-wt.hovered,
+.icons-conta .div-tg.hovered,
+.icons-conta .div-g.hovered,
+.icons-conta .div-in.hovered,
+.icons-conta .div-td.hovered,
+.icons-conta .div-gh.hovered{
+    animation-name: rd;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+@keyframes vibrar{
+    0%,
+    100%{transform:rotate(0deg);transform-origin:50% 50%}
+    10%{transform:rotate(8deg)}
+    20%,
+    40%,
+    60%{transform:rotate(-10deg)}
+    30%,
+    50%,
+    70%{transform:rotate(10deg)}
+    80%{transform:rotate(-8deg)}
+    90%{transform:rotate(8deg)}
+}
+
+.section-about-p .section-icons-about>i.hovered{
+    animation-name: vibrar;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}

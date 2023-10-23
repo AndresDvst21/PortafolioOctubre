@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+.section-about-p{
+    height: 400px;
+    background: #121420;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about-pa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+}
+
+.section-about-pa>h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 150px;
+}
+
+.section-about-pa>p{
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.section-icons-about{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.section-icons-about>i{
+    font-size: 50px;
+}
+
+.ti-brand-html5{
+    color: #DE4B25;
+}
+
+.ti-brand-css3{
+    color: #254BDD;
+}
+
+.ti-brand-javascript{
+    color: #E8D44D;
+}
+
+.ti-brand-mysql{
+    color: #00718B;
+}
+
+.ti-sql{
+    color: #3395D0;
+}
+
+.ti-camera{
+    color: #2FA3F7;
+}
+
+.ti-palette{
+    color: #F79500;
+}
+
+.ti-player-play{
+    color: #61C3A4;
+}
+
+.section-divs{
+    height: 600px;
+    background: #121420;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-divs>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.div-p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.div-p>h2{
+    font-family: 'Staatliches', sans-serif;
+    font-size: 50px;
+}
+
+.div-p>p{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.icons-div{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.ti-terminal-2{
+    color: #6D287E;
+}
+
+.ti-server{
+    color: #F61310;
+}
+
+.ti-brand-visual-studio{
+    color: #6B3494;
+}
+
+.ti-building-broadcast-tower{
+    color: #70D5F1;
+}
+
+.ti-network{
+    color: #1785B5;
+}
+
+.ti-world-www{
+    color: #0A98F7;
+}
+
+.ti-brand-windows{
+    color: #1CBEF7;
+}
+
+.ti-brand-debian{
+    color: #A50443;
+}
+
+.bi-ubuntu{
+    color: #EA5516;
+}
+
+.outside-div{
+    height: 20px;
+    border-radius: 20px;
+    border: 3px solid white;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.space-about{
+    height: 400px;
+    background: #121420;
+}
