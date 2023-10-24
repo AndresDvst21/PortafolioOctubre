@@ -547,7 +547,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
     .section-about-p{
-        height: 400px;
+        height: 300px;
         background: #313133;
         display: flex;
         flex-direction: column;

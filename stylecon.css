@@ -604,7 +604,7 @@
         margin-top: 30px;
         display: flex;
         color: white;
-        font-size: 13px;
+        font-size: 10px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -719,7 +719,7 @@
     }
     
     .space-about-ct{
-        height: 200px;
+        height: 100px;
         background: rgb(49,49,51);
         background: linear-gradient(0deg, rgba(49,49,51,1) 17%, rgba(95,96,99,1) 100%);
     }

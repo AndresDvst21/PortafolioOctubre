@@ -3984,9 +3984,10 @@
 
 .outside-div1>p{
     position: absolute;
-    margin-left: 120px;
+    margin-left: 130px;
     color: white;
     font-family: 'Pixelify Sans', sans-serif;
+    font-size: 12.5px;
 }
 
 .inside-html{
