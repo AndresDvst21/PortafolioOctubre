@@ -566,7 +566,7 @@
     .section-about-pa>h1{
         font-family: 'Bebas Neue', sans-serif;
         color: white;
-        font-size: 60px;
+        font-size: 50px;
     }
     
     .section-about-pa>p{
@@ -577,14 +577,14 @@
     }
     
     .section-icons-about{
-        width: 80%;
+        width: 90%;
         display: flex;
         justify-content: space-around;
         margin-top: 20px;
     }
     
     .section-icons-about>i{
-        font-size: 30px;
+        font-size: 35px;
     }
     
     .ti-brand-html5{
