@@ -197,3 +197,288 @@
     box-shadow: 2px 2px 10px 2px #ED7D3A;
     text-decoration: underline white;
 }
+
+@media (max-width: 1400px){
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background: #161617;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar{
+    background: #161617;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.navbar>div>a{
+    color: white;
+    font-size: 16px;
+    margin-right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    transition: scroll-behavior 0.5s;
+}
+
+.navbar>div{
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border: 3px solid #161617;
+    transition: transform 0.3s ease, transform 0.3s ease;
+}
+
+.section-titulo-header{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 100px;
+    color: white;
+    font-family: 'Bevan', serif;
+    font-size: 35px;
+    position: absolute;
+    z-index: 1000;
+}
+
+/* Hover */
+
+.div-sobre-mi:hover{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #BC4B51;
+    box-shadow: 2px 2px 10px 2px #BC4B51;
+    text-decoration: underline white;
+}
+
+.div-tech:hover{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #18206F;
+    box-shadow: 2px 2px 10px 2px #18206F;
+    text-decoration: underline white;
+}
+
+.div-hb:hover{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #C52233;
+    box-shadow: 2px 2px 10px 2px #C52233;
+    text-decoration: underline white;
+}
+
+.div-exp:hover{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #26784A;
+    box-shadow: 2px 2px 10px 2px #26784A;
+    text-decoration: underline white;
+}
+
+.div-contact:hover{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #ED7D3A;
+    box-shadow: 2px 2px 10px 2px #ED7D3A;
+    text-decoration: underline white;
+}
+
+.div-icon>a>i{    
+    margin-right: 8px;
+}
+
+.div-icon>a{
+    transition: transform 0.3s ease;
+}
+
+.div-icon>a:hover{
+    transform: translateY(-5px);
+}
+
+.bi-linkedin:hover{
+    color: #04a2f7;
+}
+
+.bi-instagram:hover{
+    color: #EC0065;
+}
+
+.bi-facebook:hover{
+    color: #1873EB;
+}
+
+.bi-threads:hover{
+    color: #A13AC7;
+}
+
+.space-header-about{
+    height: 250px;
+    background: #313133;
+}
+
+.title{
+    height: 200px;
+    background: #121420;
+    display: flex;
+    justify-content: center;
+}
+.title>h2{
+    font-family: 'Bungee', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+
+
+#id-sm.hover-activado{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #BC4B51;
+    box-shadow: 2px 2px 10px 2px #BC4B51;
+    text-decoration: underline white;
+}
+
+#id-tech.hover-activado{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #18206F;
+    box-shadow: 2px 2px 10px 2px #18206F;
+    text-decoration: underline white;
+}
+
+#id-hb.hover-activado{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #C52233;
+    box-shadow: 2px 2px 10px 2px #C52233;
+    text-decoration: underline white;
+}
+
+#id-exp.hover-activado{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #26784A;
+    box-shadow: 2px 2px 10px 2px #26784A;
+    text-decoration: underline white;
+}
+
+#id-ct.hover-activado{
+    border-radius: 20px;
+    border: 3px solid white;
+    transform: translateY(-5px);
+    background: #ED7D3A;
+    box-shadow: 2px 2px 10px 2px #ED7D3A;
+    text-decoration: underline white;
+}
+
+}
+
+@media (max-width: 800px){
+    @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+    
+    *{
+        padding: 0%;
+        margin: 0%;
+        text-decoration: none;
+    }
+    
+    .header{
+        height: 100px;
+        width: 100%;
+        background: #161617;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1000;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    
+    .section-titulo-header{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px;
+        color: white;
+        font-family: 'Bevan', serif;
+        font-size: 35px;
+        position: absolute;
+        z-index: 1000;
+    }
+    
+}
+
+@media (max-width: 400px){
+    @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+    
+    *{
+        padding: 0%;
+        margin: 0%;
+        text-decoration: none;
+    }
+    
+    .header{
+        height: 100px;
+        width: 100%;
+        background: #161617;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1000;
+    }
+    
+    .navbar{
+        display: none;
+    }
+    
+    .section-titulo-header{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 100px;
+        color: white;
+        font-family: 'Bevan', serif;
+        font-size: 25px;
+        position: absolute;
+        z-index: 1000;
+    }
+    
+}

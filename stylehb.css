@@ -103,3 +103,259 @@
     font-size: 90px;
     color: white;
 }
+
+@media (max-width: 1400px){
+    .section-hb{
+        height: 600px;
+        background: #313133;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .section-hb>section{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    
+    .section-hb>section>div{
+        width: 150px;
+        height: 180px;
+        border-radius: 20px;
+        border: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .section-hb>section>div>img{
+        height: 120px;
+    }
+    
+    .section-hb-1>div{
+        margin-right: 200px;
+    }
+    
+    .section-hb-2>div{
+        margin-left: 200px;
+        margin-right: 50px;
+    }
+    
+    
+    .ps{
+        filter: invert(47%) sepia(96%) saturate(1126%) hue-rotate(181deg) brightness(100%) contrast(94%);
+    }
+    
+    .ai{
+        filter: invert(51%) sepia(96%) saturate(680%) hue-rotate(2deg) brightness(99%) contrast(103%);
+    }
+    
+    
+    .pr{
+        filter: invert(71%) sepia(41%) saturate(6219%) hue-rotate(238deg) brightness(100%) contrast(94%);
+    }
+    
+    .ae{
+        filter: invert(69%) sepia(15%) saturate(7439%) hue-rotate(204deg) brightness(99%) contrast(96%);
+    }
+    
+    .cd{
+        filter: invert(80%) sepia(20%) saturate(5921%) hue-rotate(39deg) brightness(96%) contrast(88%);
+    }
+    
+    .space-about-hb{
+            height: 400px;
+            background: rgb(49,49,51);
+            background: linear-gradient(0deg, rgba(49,49,51,1) 17%, rgba(95,96,99,1) 100%);
+    }
+    
+    .title-hb{
+        height: 200px;
+        background: #313133;
+        display: flex;
+        justify-content: center;
+    }
+    .title-hb>h2{
+        font-family: 'Bungee', sans-serif;
+        font-size: 70px;
+        color: white;
+    }
+}
+
+@media (max-width: 800px){
+    .section-hb{
+        height: 300px;
+        background: #313133;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .section-hb>section{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+    .section-hb>section>div{
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+        border: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .section-hb>section>div>img{
+        height: 50px;
+    }
+    
+    .section-hb-1>div{
+        margin-right: 100px;
+    }
+    
+    .section-hb-2>div{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    
+    .ps{
+        filter: invert(47%) sepia(96%) saturate(1126%) hue-rotate(181deg) brightness(100%) contrast(94%);
+    }
+    
+    .ai{
+        filter: invert(51%) sepia(96%) saturate(680%) hue-rotate(2deg) brightness(99%) contrast(103%);
+    }
+    
+    
+    .pr{
+        filter: invert(71%) sepia(41%) saturate(6219%) hue-rotate(238deg) brightness(100%) contrast(94%);
+    }
+    
+    .ae{
+        filter: invert(69%) sepia(15%) saturate(7439%) hue-rotate(204deg) brightness(99%) contrast(96%);
+    }
+    
+    .cd{
+        filter: invert(80%) sepia(20%) saturate(5921%) hue-rotate(39deg) brightness(96%) contrast(88%);
+    }
+    
+    .space-about-hb{
+            height: 400px;
+            background: rgb(49,49,51);
+            background: linear-gradient(0deg, rgba(49,49,51,1) 17%, rgba(95,96,99,1) 100%);
+    }
+    
+    .title-hb{
+        height: 200px;
+        background: #313133;
+        display: flex;
+        justify-content: center;
+    }
+    .title-hb>h2{
+        font-family: 'Bungee', sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+}
+
+
+@media (max-width: 400px){
+    .section-hb{
+        height: 300px;
+        background: #313133;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .section-hb>section{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    
+    .section-hb>section>div{
+        width: 90px;
+        height: 80px;
+        border-radius: 20px;
+        border: 3px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 13px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .section-hb>section>div>img{
+        height: 30px;
+    }
+    
+    .section-hb-1>div{
+        margin-right: 0px;
+    }
+    
+    .section-hb-2>div{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    
+    .ps{
+        filter: invert(47%) sepia(96%) saturate(1126%) hue-rotate(181deg) brightness(100%) contrast(94%);
+    }
+    
+    .ai{
+        filter: invert(51%) sepia(96%) saturate(680%) hue-rotate(2deg) brightness(99%) contrast(103%);
+    }
+    
+    
+    .pr{
+        filter: invert(71%) sepia(41%) saturate(6219%) hue-rotate(238deg) brightness(100%) contrast(94%);
+    }
+    
+    .ae{
+        filter: invert(69%) sepia(15%) saturate(7439%) hue-rotate(204deg) brightness(99%) contrast(96%);
+    }
+    
+    .cd{
+        filter: invert(80%) sepia(20%) saturate(5921%) hue-rotate(39deg) brightness(96%) contrast(88%);
+    }
+    
+    .space-about-hb{
+            height: 400px;
+            background: rgb(49,49,51);
+            background: linear-gradient(0deg, rgba(49,49,51,1) 17%, rgba(95,96,99,1) 100%);
+    }
+    
+    .title-hb{
+        height: 150px;
+        background: #313133;
+        display: flex;
+        justify-content: center;
+    }
+    .title-hb>h2{
+        font-family: 'Bungee', sans-serif;
+        font-size: 45px;
+        color: white;
+    }
+}

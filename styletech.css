@@ -136,3 +136,431 @@
     background: rgb(49,49,51);
 background: linear-gradient(180deg, rgba(49,49,51,1) 25%, rgba(95,96,99,1) 100%);
 }
+
+@media (max-width: 1400px){
+    .tech{
+        height: 1900px;
+        background: #5F6063;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-tech{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 450px;
+        margin-bottom: 100px;
+    }
+    
+    .section-tech>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    .section-tech>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .section-tech>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech>div>i{
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    
+    .outside-div1{
+        height: 20px;
+        width: 1000px;
+        border-radius: 20px;
+        border: 3px solid white;
+    }
+    
+    .ti-brand-bootstrap{
+        color: #760FF0;
+    }
+    
+    .section-tech1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    
+    .section-tech1>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 70px;
+        color: white;
+    }
+    
+    .section-tech1>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .section-tech1>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech1>div>i{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    
+    .section-tech2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+    
+    .section-tech2>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 70px;
+        color: white;
+    }
+    
+    .section-tech2>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .section-tech2>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech2>div>i{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    
+    .title-tech{
+        height: 200px;
+        background: #5F6063;
+        display: flex;
+        justify-content: center;
+    }
+    .title-tech>h2{
+        font-family: 'Bungee', sans-serif;
+        font-size: 70px;
+        color: white;
+    }
+    
+    .space-about-tech{
+        height: 400px;
+        background: rgb(49,49,51);
+    background: linear-gradient(180deg, rgba(49,49,51,1) 25%, rgba(95,96,99,1) 100%);
+    }
+}
+
+@media (max-width: 800px){
+    .tech{
+        height: 1900px;
+        background: #5F6063;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-tech{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 450px;
+        margin-bottom: 100px;
+    }
+    
+    .section-tech>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    .section-tech>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .section-tech>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech>div>i{
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    
+    .outside-div1{
+        height: 20px;
+        width: 500px;
+        border-radius: 20px;
+        border: 3px solid white;
+    }
+    
+    .ti-brand-bootstrap{
+        color: #760FF0;
+    }
+    
+    .section-tech1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    
+    .section-tech1>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 70px;
+        color: white;
+    }
+    
+    .section-tech1>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .section-tech1>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech1>div>i{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    
+    .section-tech2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+    
+    .section-tech2>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 70px;
+        color: white;
+    }
+    
+    .section-tech2>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    
+    .section-tech2>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech2>div>i{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    
+    .title-tech{
+        height: 200px;
+        background: #5F6063;
+        display: flex;
+        justify-content: center;
+    }
+    .title-tech>h2{
+        font-family: 'Bungee', sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    .space-about-tech{
+        height: 400px;
+        background: rgb(49,49,51);
+    background: linear-gradient(180deg, rgba(49,49,51,1) 25%, rgba(95,96,99,1) 100%);
+    }
+}
+
+@media (max-width: 400px){
+    .tech{
+        height: 1900px;
+        background: #5F6063;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section-tech{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+    
+    .section-tech>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .section-tech>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 20px;
+        color: white;
+        margin-left: 50px;
+    }
+    
+    .section-tech>div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .section-tech>div>i{
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    
+    .outside-div1{
+        height: 20px;
+        width: 170px;
+        border-radius: 20px;
+        border: 3px solid white;
+    }
+    
+    .ti-brand-bootstrap{
+        color: #760FF0;
+    }
+    
+    .section-tech1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 600px;
+        margin-bottom: 100px;
+    }
+    
+    .section-tech1>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .section-tech1>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 20px;
+        color: white;
+        margin-left: 60px;
+    }
+    
+    .section-tech1>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech1>div>i{
+        font-size: 40px;
+        margin-right: 20px;
+    }
+    
+    .section-tech2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        border-radius: 20px;
+        border: 5px solid white;
+        height: 700px;
+        margin-bottom: 50px;
+    }
+    
+    .section-tech2>div>h2{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .section-tech2>div>h3{
+        font-family: 'Staatliches', sans-serif;
+        font-size: 20px;
+        color: white;
+        margin-left: 50px;
+    }
+    
+    .section-tech2>div{
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-tech2>div>i{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    
+    .title-tech{
+        height: 200px;
+        background: #5F6063;
+        display: flex;
+        justify-content: center;
+    }
+    .title-tech>h2{
+        font-family: 'Bungee', sans-serif;
+        font-size: 45px;
+        color: white;
+    }
+    
+    .space-about-tech{
+        height: 600px;
+        background: rgb(49,49,51);
+    background: linear-gradient(180deg, rgba(49,49,51,1) 25%, rgba(95,96,99,1) 100%);
+    }
+}
