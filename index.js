@@ -123,6 +123,13 @@ document.querySelectorAll('header a').forEach(link => {
   });
 });
 
+var gmail = document.getElementById("gmail");
+
+  gmail.addEventListener("click", function(event) {
+  event.preventDefault();
+
+  swal("andresjcampos20@gmail.com", "Este es mi correo electronico, escribeme si deseas conversar");
+});
 
 
 
